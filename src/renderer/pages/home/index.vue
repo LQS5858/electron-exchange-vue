@@ -118,6 +118,7 @@
               <li class="price">394844</li>
               <li class="rose">0.53%</li>
             </ul>
+
           </div>
         </div>
         <div class="middle flex-column">
@@ -183,11 +184,7 @@
                 <li>0.738</li>
                 <li>87484</li>
               </ul>
-              <ul class="buy-row flex">
-                <li class="price">74674.98</li>
-                <li>0.738</li>
-                <li>87484</li>
-              </ul>
+
             </div>
             <div class="cur-price flex">
               <ul class="left flex">
@@ -242,7 +239,7 @@
                 <li>0.738</li>
                 <li>87484</li>
               </ul>
-              <ul class="sell-row flex">
+              <!-- <ul class="sell-row flex">
                 <li class="price">74674.98</li>
                 <li>0.738</li>
                 <li>87484</li>
@@ -261,7 +258,7 @@
                 <li class="price">74674.98</li>
                 <li>0.738</li>
                 <li>87484</li>
-              </ul>
+              </ul> -->
             </div>
           </div>
         </div>
@@ -344,6 +341,7 @@ export default {
         height: 100%;
         box-sizing: border-box;
         border: 1px solid #1a2445;
+        overflow: hidden;
         .handicap-content {
           width: 100%;
           .cur-price {
@@ -379,6 +377,7 @@ export default {
           .sell {
             box-sizing: border-box;
             padding: 0 20px;
+            overflow: hidden;
             flex: 1;
             li {
               font-size: 12px;
